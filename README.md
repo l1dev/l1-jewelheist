@@ -8,6 +8,7 @@ https://streamable.com/xjtms0
 - [qb-core](https://github.com/qbcore-framework/qb-core)
 - [qb-target](https://github.com/qbcore-framework/qb-target)
 - [ox_doorlock](https://github.com/overextended/ox_doorlock)
+- [ox_lib](https://github.com/overextended/ox_lib)
 - [ps-dispatch](https://github.com/Project-Sloth/ps-dispatch)
 - [boii-minigames](https://github.com/boiidevelopment/boii_minigames)
 
