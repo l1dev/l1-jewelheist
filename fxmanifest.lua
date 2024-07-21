@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 author 'l1'
 description 'l1-jewelheist'
-version '1.0'
+version '1.1'
 shared_scripts {
     '@qb-core/shared/locale.lua',
     '@ox_lib/init.lua',
