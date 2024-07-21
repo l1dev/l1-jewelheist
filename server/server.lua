@@ -39,3 +39,16 @@ end)
 QBCore.Functions.CreateCallback("l1-jewelheist:CooldownVitrines",function(source, cb, vitrineKey)
     cb(Cooldown[vitrineKey])
 end)
+
+
+local vitrineLocks = {}
+
+RegisterNetEvent('l1-jewelheist:server:lockVitrine')
+AddEventHandler('l1-jewelheist:server:lockVitrine', function(vitrineKey, state)
+    vitrineLocks[vitrineKey] = state
+    TriggerClientEvent('l1-jewelheist:client:updateVitrineLock', -1, vitrineKey, state)
+end)
+
+QBCore.Functions.CreateCallback('l1-jewelheist:isVitrineLocked', function(source, cb, vitrineKey)
+    cb(vitrineLocks[vitrineKey] or false)
+end)
