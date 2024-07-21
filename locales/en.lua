@@ -10,6 +10,7 @@ local Translations = {
     ["error_cooldown"] = "Mağaza kısa bir süre önce soyuldu...",
     ["error_no_police"] = "Yetersiz Polis Sayısı",
     ["no_item"] = "Raflar ancak golf sopasıyla kırılabilir.",
+    ["error_locked"] = "ayyynen knk",
   },
 }
 Lang = Locale:new({
